@@ -6,6 +6,7 @@ from shapely.geometry import shape, Point
 
 app = Flask(__name__)
 
+# Mengambil Token dan ID Grup dari environment Render
 FONNTE_TOKEN = os.environ.get("FONNTE_TOKEN", "")
 TARGET_WA = os.environ.get("TARGET_WA", "")
 
